@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+             android:id="@+id/btn_main_rocket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/icon_rocket"
+             android:background="@drawable/main_btn_selector"
+            android:text="@string/logo_button1" />
+
+        <Button
+             android:id="@+id/btn_main_softmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/icon_softmgr"
+             android:background="@drawable/main_btn_selector"
+            android:text="@string/logo_button2" />
+
+        <Button
+            android:id="@+id/btn_main_phonemgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_phonemgr"
+             android:background="@drawable/main_btn_selector"
+            android:text="@string/logo_button3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         >
+
+        <Button
+             android:id="@+id/btn_main_telmgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/icon_telmgr"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+             android:background="@drawable/main_btn_selector"
+            android:text="@string/logo_button4" />
+
+        <Button
+             android:id="@+id/btn_main_filemgr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/icon_filemgr"
+            android:background="@drawable/main_btn_selector"
+            android:text="@string/logo_button5" />
+
+        <Button
+             android:id="@+id/btn_main_sdclean"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:textSize="15sp"
+             android:background="@drawable/main_btn_selector"
+            android:drawableTop="@drawable/icon_sdclean"
+            android:text="@string/logo_button6" />
+    </LinearLayout>
+
+</LinearLayout>

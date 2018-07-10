@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">火鸡管家</string>
+    <string name="app_next">跳过>></string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_text">火鸡手机管家</string>
+    <string name="logo_button1">麦克风监测</string>
+    <string name="logo_button2">摄像头监测</string>
+    <string name="logo_button3">权限管理</string>
+    <string name="logo_button4">电话监测</string>
+    <string name="logo_button5">短信监测</string>
+    <string name="logo_button6">清理加速</string>
+    <string name="accelerate_btn">一键清理</string>
+    <string name="format_mem">内存: %1$S"</string>
+    <string name="acc_sys">系统进程</string>
+    <string name="acc_user">用户进程</string>
+    <string name="txt_MODEL">Android</string>
+    <string name="Top_txt">设置</string>
+    <string name="soft_Top_txt">蓝调手机管家</string>
+    <string name="soft_all_button">所有软件</string>
+    <string name="soft_sys_button">系统软件</string>
+    <string name="soft_user_button">用户软件</string>
+    <string name="txt_soft_internal_space">手机内置空间</string>
+    <string name="txt_soft_storage_space">外置存储空间</string>
+    <string name="txt_soft_all">所有软件</string>
+    <string name="txt_soft_system">系统软件</string>
+    <string name="txt_soft_user">用户软件</string>
+    <string name="txt_soft_clear">卸载所选软件</string>
+    <!-- activity_detect -->
+    <string name="txt_check_title">手机检测页面</string>
+    <string name="dialog_progress_title">请稍后</string>
+    <string name="dialog_progress_message">加载中>></string>
+    <string name="txt_phonedetect_text">手机检测</string>
+    <!-- activity_CallLog -->
+    <string name="CallLog_txt">通话记录</string>
+    <string name="CallLog_txt2">通讯大全</string>
+    <!-- activity_address -->
+    <string name="layout_address_top_txt">通讯录</string>
+    <!-- activity_softmannager -->
+    <string name="layout_SM_top_txt">文件管理</string>
+    <string name="found">已发现</string>
+    <string name="Calculation">计算中。。。</string>
+    <!-- activity_fineitem -->
+    <string name="finaitem_btn_txt">删除所有文件</string>
+    <string name="finaitem_txt_num">文件数量：</string>
+    <string name="finaitem_txt_mem">所占内存：</string>
+    <!-- activity_fineitem -->
+    <string name="layout_gerbage_top_txt">垃圾清理</string>
+    <string name="layout_gerbage_btn_txt">一键清理文件</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF" >
+
+    <edu.feicui.main.view.CircleView
+        android:id="@+id/txt_sava"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="#ffffffff" />
+
+    <ImageButton
+        android:id="@+id/img_button1"
+        android:layout_width="245dp"
+        android:layout_height="245dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/main_img_selector" />
+
+    <TextView
+        android:id="@+id/cercle_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="10dp"
+        android:text="50"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cercle_txt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/logo_button1"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cercle_txt"
+        android:layout_alignBottom="@+id/cercle_txt"
+        android:layout_toRightOf="@+id/cercle_txt"
+        android:text="%"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</RelativeLayout>
